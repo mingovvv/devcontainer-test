@@ -1,0 +1,8 @@
+{
+  dockerComposeFile: [
+    "./docker-compose.yml"
+  ],
+  service: "application",
+  remoteUser: "root",
+  workspaceFolder: "/workspaces/${localWorkspaceFolderBasename}"
+}
